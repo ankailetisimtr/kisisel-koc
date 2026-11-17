@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/kisisel-koc/sw.js', { scope: '/kisisel-koc/' })})}
